@@ -1,0 +1,84 @@
+body{
+    background-color: #541212;
+}
+
+h1{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#contenedor{
+    margin: 100px;
+    padding: 20px;         
+    border-radius: 10px;
+	background: #b22f2f;
+}
+
+#menu_circulos{
+    background: #811b1b;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 120px; 
+    margin: 20px;
+}
+
+.circulo{
+    background: #920b0b;	
+	border: 10px solid #811b1b;
+	border-radius: 100px 100px;
+	margin: 20px;
+	padding: 15px;
+	box-shadow: 10px 10px 3px rgb(243, 96, 96);
+    display: inline-block;
+    width: 100px;
+	height: 100px;
+}
+
+
+.menu-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-decoration: none;
+    color: #333;
+    width: 120px; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.texto-menu {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+#Boton_index{
+	background: #333;
+}
+
+#Boton_menu_platos_principales{
+	background: url(Imágenes/imagen_platos_principales.jpg);
+}
+
+#Boton_menu_postres{
+    background: url(Imágenes/imagen_postres.jpg);
+}
+
+#Boton_menu_bebidas{
+    background: url(Imágenes/imagen_bebidas.jpg);
+}
