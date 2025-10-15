@@ -1,5 +1,5 @@
 body{
-    background-color: #541212;
+    background: url(Imágenes/Imágen\ de\ fondo.jpeg);
 }
 
 h1{
@@ -69,6 +69,10 @@ h2{
 
 #Boton_index{
 	background: #333;
+}
+
+#Boton_menu_entradas{
+	background: url(Imágenes/imagen_entradas.jpg);
 }
 
 #Boton_menu_platos_principales{
