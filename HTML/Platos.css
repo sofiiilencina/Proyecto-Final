@@ -1,0 +1,55 @@
+.menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+.plato {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      width: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .plato:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .plato-info {
+      flex: 1;
+      margin-right: 15px;
+    }
+
+    .plato h4 {
+      margin: 0;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .ingredientes {
+      color: #777;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .precio {
+      font-size: 18px;
+      color: #b22222;
+      font-weight: bold;
+    }
+
+    .plato img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      flex-shrink: 0; 
+    }
