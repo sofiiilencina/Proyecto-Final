@@ -1,0 +1,34 @@
+body{
+    background: url(Imágenes/Imágen\ de\ fondo.jpeg);
+}
+
+h1{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#contenedor{
+    margin: 100px;
+    padding: 20px;         
+    border-radius: 10px;
+	background: #b22f2f;
+}
+
+#cuerpo{
+    margin-top: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#cuerpo p,ul{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
