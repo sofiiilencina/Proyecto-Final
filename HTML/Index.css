@@ -1,9 +1,13 @@
 body{
-    background: url(Imágenes/Imágen\ de\ fondo.jpeg);
+    background: url(Gemini_Generated_Image_nw5v22nw5v22nw5v.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
-    color: #000000;
+    color: #B8860B;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     font-weight: bold;
@@ -15,11 +19,11 @@ h1{
     margin: 100px;
     padding: 20px;         
     border-radius: 10px;
-	background: #b22f2f;
+	background: #031425;
 }
 
 #menu_circulos{
-    background: #811b1b;
+    background: #001F3F;
     display: flex; 
     justify-content: center; 
     flex-wrap: wrap; 
@@ -28,12 +32,12 @@ h1{
 }
 
 .circulo{
-    background: #920b0b;	
-	border: 10px solid #811b1b;
+    background: #06101b;	
+	border: 10px solid #040e18;
 	border-radius: 100px 100px;
 	margin: 20px;
 	padding: 15px;
-	box-shadow: 10px 10px 3px rgb(243, 96, 96);
+	box-shadow: 10px 10px 3px rgb(3, 54, 105);
     display: inline-block;
     width: 100px;
 	height: 100px;
@@ -45,7 +49,7 @@ h1{
     flex-direction: column; 
     align-items: center; 
     text-decoration: none;
-    color: #333;
+    color: #000000;
     width: 120px; 
     text-align: center;
     font-family: sans-serif;
@@ -81,7 +85,7 @@ h1{
 }
 
 #cuerpo p{
-    color: #000000;
+    color: #B8860B;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: lighter;
@@ -89,7 +93,7 @@ h1{
 }
 
 #cuerpo h2{
-    color: #000000;
+    color: #B8860B;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: bold;
@@ -98,7 +102,7 @@ h1{
 }
 
 #pie{
-    background-color: #811b1b;
+    background-color:#001F3F;
     display: flex; 
     justify-content: center; 
     flex-wrap: wrap; 
@@ -108,12 +112,12 @@ h1{
 }
 
 .rectangulo{
-    background: #b67b7b;	
-	border: 10px solid #5b0e0e;
+    background:   #001F3F;	
+	border: 10px solid  #040e18;
 	border-radius: 30px 30px;
 	margin: 40px;
 	padding: 30px;
-	box-shadow: 10px 10px 3px rgb(243, 96, 96);
+	box-shadow: 10px 10px 3px rgb(23, 63, 104);
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -126,19 +130,17 @@ h1{
     flex-direction: column; 
     align-items: center; 
     text-decoration: none;
-    color: #333;
+    color:  #031425;
     width: 120px; 
     text-align: center;
     font-family: sans-serif;
 }
 
 .texto-button {
-    color: #5b0e0e; 
+    color: #000000; 
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     margin: 0; 
 }
-
-
