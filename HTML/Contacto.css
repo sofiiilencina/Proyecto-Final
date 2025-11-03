@@ -1,0 +1,128 @@
+body{
+    background: url(Imágenes/imágen\ de\ fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: #B8860B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#contenedor{
+    margin: 100px;
+    padding: 20px;         
+    border-radius: 10px;
+	background: #031425;
+}
+
+#cuerpo{
+    margin-top: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+body {
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    background-color: #f0f0f0; 
+}
+
+#contenedor {
+    background-color: #003366; 
+    padding: 30px; 
+    border-radius: 10px; 
+    border: 3px solid #FFD700; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    width: 90%; 
+    max-width: 450px; 
+    color: white; 
+}
+
+#contenedor h1 {
+    color: #B8860B; 
+    text-align: center;
+    border-bottom: 2px solid #FFD700; 
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#contenedor label {
+    color: #B8860B; 
+    font-weight: bold;
+    display: block; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#contenedor input[type="text"], 
+#contenedor input[type="email"], 
+#contenedor input[type="asunto"], 
+#contenedor textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0055AA; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-color: #004080; 
+    color: white; 
+}
+
+
+.contenedor-botones {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+
+#contenedor input[type="submit"] {
+    background-color: #B8860B; 
+    color: #003366; 
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    margin: 0 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+#contenedor input[type="submit"]:hover {
+    background-color: #B8860B; 
+}
+
+
+#contenedor input[type="reset"] {
+    background-color: #0055AA; 
+    color: #B8860B; 
+    padding: 12px 25px;
+    border: 1px solid #FFD700; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    margin: 0 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+#contenedor input[type="reset"]:hover {
+    background-color: #003366; 
+    color: #B8860B; 
+    border-color: #E6C200; 
+}
+
+

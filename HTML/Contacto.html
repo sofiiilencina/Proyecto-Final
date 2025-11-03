@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Contacto.css">
 </head>
 <body>
+    <div id="contenedor">
+        <h1>Contacto</h1>
+
+        <form>
+            <label for="nombre">Nombre Completo</label><br />
+            <input type="text" name="nombre" id="nombre"/><br />
+
+            <label for="correo">Correo Electrónico</label> <br />
+            <input type="email"  name="correo" id="correo"/><br />
+
+            <label for="asunto">Asunto</label> <br />
+            <input type="asunto"  name="asunto" id="asunto"/><br />
+
+            <label for="Mensaje">Mensaje</label><br />
+	        <textarea name="mensaje" id="mensaje" rows="5" cols="30"></textarea><br />
+
+            <input type="submit" name="enviar" value="Enviar"/>
+            <input type="reset" name="borrar" value="Borrar"/>
+        </form>
+    </div>
     
 </body>
 </html>
