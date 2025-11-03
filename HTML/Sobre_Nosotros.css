@@ -1,9 +1,13 @@
 body{
-    background: url(Imágenes/Imágen\ de\ fondo.jpeg);
+    background: url(Gemini_Generated_Image_nw5v22nw5v22nw5v.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
-    color: #000000;
+    color: #B8860B;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     font-weight: bold;
@@ -15,7 +19,7 @@ h1{
     margin: 100px;
     padding: 20px;         
     border-radius: 10px;
-	background: #b22f2f;
+	background: #031425;
 }
 
 #cuerpo{
@@ -25,7 +29,7 @@ h1{
 }
 
 #cuerpo p,ul{
-    color: #000000;
+    color: #97700d;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: lighter;
