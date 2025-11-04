@@ -9,7 +9,7 @@ body{
 h1{
     color: #B8860B;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-size: 125px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
@@ -57,8 +57,11 @@ h1{
 
 .texto-menu {
     margin: 0;
-    font-size: 14px;
+    font-size: 1.7em;
     font-weight: 600;
+    color: #B8860B;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 
@@ -87,7 +90,7 @@ h1{
 #cuerpo p{
     color: #B8860B;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
     text-align: center;
 }
@@ -95,7 +98,7 @@ h1{
 #cuerpo h2{
     color: #B8860B;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
@@ -112,7 +115,7 @@ h1{
 }
 
 .rectangulo{
-    background:   #001F3F;	
+    background:   #073869;	
 	border: 10px solid  #040e18;
 	border-radius: 30px 30px;
 	margin: 40px;
@@ -137,10 +140,11 @@ h1{
 }
 
 .texto-button {
-    color: #000000; 
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    color: #B8860B; 
+    font-size: 1.7em;
     font-weight: bold;
     text-decoration: none;
     margin: 0; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
