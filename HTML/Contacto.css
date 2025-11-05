@@ -56,6 +56,18 @@ body {
     margin-top: 0;
 }
 
+#icon-Index{
+      position: fixed;
+      top: 30px;
+      right: 30px;
+      color: #da9f0a;
+      text-decoration: none;
+      background-color: #001F3F;
+      padding: 10px;
+      border-radius: 15px;
+      font-size: 24px;
+    }
+
 #contenedor label {
     color: #B8860B; 
     font-weight: bold;
