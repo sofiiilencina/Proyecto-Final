@@ -56,6 +56,11 @@ body {
     margin-top: 0;
 }
 
+.mensaje-exito{
+    color: rgb(207, 207, 1); 
+    font-weight: bold;
+}
+
 #icon-Index{
       position: fixed;
       top: 30px;

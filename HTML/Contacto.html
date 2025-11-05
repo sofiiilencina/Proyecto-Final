@@ -11,7 +11,7 @@
         <h1>Contacto</h1>
         <a href="Index.html" id="icon-Index" class="text-icon">Inicio</a>
 
-        <form>
+        <form id="contactFormulario">
             <label for="nombre">Nombre Completo</label><br />
             <input type="text" name="nombre" id="nombre"/><br />
 
@@ -21,13 +21,17 @@
             <label for="asunto">Asunto</label> <br />
             <input type="asunto"  name="asunto" id="asunto"/><br />
 
-            <label for="Mensaje">Mensaje</label><br />
+            <label for="mensaje">Mensaje</label><br />
 	        <textarea name="mensaje" id="mensaje" rows="5" cols="30"></textarea><br />
+
+            <p id="mensajeExito" class="mensaje-exito"></p>
 
             <input type="submit" name="enviar" value="Enviar"/>
             <input type="reset" name="borrar" value="Borrar"/>
         </form>
     </div>
     
+    <script type="text/javascript" src="Contacto.js"></script>
+
 </body>
 </html>
