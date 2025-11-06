@@ -38,10 +38,10 @@ body {
 }
 
 #contenedor {
-    background-color: #003366; 
+    background-color: #022c55; 
     padding: 30px; 
     border-radius: 10px; 
-    border: 3px solid #FFD700; 
+    border: 3px solid #B8860B; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
     width: 90%; 
     max-width: 450px; 
@@ -51,7 +51,7 @@ body {
 #contenedor h1 {
     color: #B8860B; 
     text-align: center;
-    border-bottom: 2px solid #FFD700; 
+    border-bottom: 2px solid #B8860B; 
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -122,7 +122,7 @@ body {
 
 
 #contenedor input[type="reset"] {
-    background-color: #0055AA; 
+    background-color: #02396f; 
     color: #B8860B; 
     padding: 12px 25px;
     border: 1px solid #FFD700; 
@@ -137,7 +137,7 @@ body {
 
 
 #contenedor input[type="reset"]:hover {
-    background-color: #003366; 
+    background-color: #061c33; 
     color: #B8860B; 
     border-color: #E6C200; 
 }
